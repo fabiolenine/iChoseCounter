@@ -7,13 +7,13 @@
         <meta name="keywords"     content="ichose, provider, baladas, eventos, festas, shows, comanda, digital, danceteria, software, balcão"/>
         <meta name="author"       content="Fabio Lenine, Jadson Mezzari, Jesualdo Pinheiro and Lucas Assis."/>
     
-        <title>Dashboard - iChose</title>
+        <title>Terminal - iChose</title>
         
         <!-- Bootstrap core CSS -->
-        <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="https://s3-us-west-2.amazonaws.com/ichose/site/provider/font-awesome/css/font-awesome.min.css">
         <!-- Add custom CSS here -->
-        <link rel="stylesheet" type="text/css" href="https://s3-us-west-2.amazonaws.com/ichose/site/provider/css/ichose.css">
+        <link rel="stylesheet" type="text/css" href="https://s3-us-west-2.amazonaws.com/ichose/site/counter/css/terminal.css">
         <!-- Page Specific CSS -->
         <link rel="stylesheet" type="text/css" href="http://cdn.oesmith.co.uk/morris-0.4.3.min.css">
     </head>
@@ -37,7 +37,8 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav side-nav">
-           <li class="dropdown active">
+<!--
+            <li class="dropdown active">
               <a href="" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-caret-square-o-down"></i> Dashboard <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li><a href="/mapa">Mapas</a></li>
@@ -46,10 +47,13 @@
                   <li><a href="/cadEvento">Eventos</a></li>
                 </ul>
             </li>
-
-            <li><a href="/grafico"><i class="fa fa-bar-chart-o"></i> Gráficos</a></li>
-            <li><a href="/relatorio"><i class="fa fa-table"></i> Relatórios</a></li>
-            <li><a href="/evento"><i class="fa fa-edit"></i> Eventos</a></li>
+-->
+            <li><a href="/terminal">            <i class="fa fa-desktop">       </i> Terminal</a></li>
+            <li><a href="/sales">               <i class="fa fa-inbox">         </i> Vendas Realizadas</a></li>
+            <li><a href="/attendances">         <i class="fa fa-group">         </i> Atendimentos</a></li>
+            <li><a href="/consult">             <i class="fa fa-eye">           </i> Consultar</a></li>
+            <li><a href="/payment">             <i class="fa fa-credit-card">   </i> Pagamentos</a></li>
+            <li><a href="/productsandservices"> <i class="fa fa-tags">          </i> Produtos e Serviços</a></li>
           </ul>
 
           <ul class="nav navbar-nav navbar-right navbar-user">
@@ -57,7 +61,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <%= user.local.email %> <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="/perfil"><i class="fa fa-user"></i> Perfil</a></li>
-                <li><a href="/configuracao"><i class="fa fa-gear"></i> Configurações</a></li>
+                <!--<li><a href="/configuracao"><i class="fa fa-gear"></i> Configurações</a></li> -->
                 <li class="divider"></li>
                 <li><a href="/logout"><i class="fa fa-power-off"></i> Sair</a></li>
               </ul>
