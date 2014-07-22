@@ -24,6 +24,11 @@ body {
   padding: 5px 15px;
 }
 
+#imageTerminal {
+    height: 300px;
+    width: 300px;
+}
+
 /* Nav Messages */
 
 .messages-dropdown .dropdown-menu .message-preview .avatar,
