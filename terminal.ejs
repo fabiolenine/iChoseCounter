@@ -84,16 +84,39 @@
         <div class="row">
             <div class="col-md-4">
                 <p class="text-center">
-                    <img src="https://s3-us-west-2.amazonaws.com/ichose/site/counter/img/fotos/default1.gif" class="img-rounded" alt="Rounded Image" id="imageTerminal">
+                    <a href="#" class="thumbnail">
+                        <img src="https://s3-us-west-2.amazonaws.com/ichose/site/counter/img/fotos/default1.gif" class="img-rounded" alt="Rounded Image" id="imageTerminal">
+                    </a>
                 </p>
             </div>
             <div class="col-md-4">
                 <p class="text-center">
-                    <img src="https://s3-us-west-2.amazonaws.com/ichose/site/counter/img/fotos/default_product.png" class="img-rounded" alt="Rounded Image" id="imageTerminal">
+                    <a href="#" class="thumbnail">
+                        <img src="https://s3-us-west-2.amazonaws.com/ichose/site/counter/img/fotos/default_product.png" class="img-rounded" alt="Rounded Image" id="imageTerminal">
+                    </a>
                 </p>
             </div>
             <div class="col-md-4">
-                
+                <div class="panel panel-default">
+                <!-- Default panel contents -->
+                    <div class="panel-heading">Registrado</div>
+                    <div class="table-responsive"> 
+                        <table class="table">
+                            <tr>
+                                <th>Descrição</th>
+                                <th>Quant.</th>
+                                <th>Valor</th>
+                                <th>Total</th>
+                            </tr>
+                            <tr>
+                                <td>{{adiquirido.descricao}}</td>
+                                <td>{{adiquirido.quantidade}}</td>
+                                <td>{{adiquirido.valor}}</td>
+                                <td>{{adiquirido.total}}</td>
+                            </tr>
+                        </table>
+                    </div>
+               </div> 
             </div>
         </div>           
         <div class="row">
